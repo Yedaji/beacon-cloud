@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: beacon-api
+
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 124.221.171.44
+      config:
+        server-addr: 124.221.171.44
+        file-extension: yml
+        # beacon-api
+
+  rabbitmq:
+    host: 124.221.171.44
+    port: 5672
+    username: root
+    password: yedaji!!
+    virtual-host: /

@@ -1,0 +1,51 @@
+# 忽略所有 .log 文件
+*.log
+ 
+# 忽略所有 .tmp 文件
+*.tmp
+ 
+# 忽略所有 .bak 文件
+*.bak
+ 
+# 忽略所有 .exe 文件
+*.exe
+ 
+# 忽略所有 .dll 文件
+*.dll
+ 
+# 忽略所有 .vs 目录，通常是由Visual Studio生成的
+.vs/
+ 
+# 忽略所有的 .idea 目录，常见于各种IDE
+.idea/
+ 
+# 忽略所有的 node_modules 目录，常见于JavaScript项目
+node_modules/
+ 
+# 忽略所有的 target 目录，常见于Java/Scala项目
+target/
+ 
+# 忽略所有的 bin 和 obj 目录，常见于C#项目
+bin/
+obj/
+ 
+# 忽略所有的 *.orig 文件，这些是临时文件
+*.orig
+ 
+# 忽略所有的 vendor 目录，用于Composer依赖管理
+vendor/
+ 
+# 忽略所有的 .sass_cache 目录
+.sass_cache/
+ 
+# 忽略所有的 .project 文件，这是Eclipse的项目文件
+.project
+ 
+# 忽略所有的 .classpath 文件，这是Eclipse的类路径文件
+.classpath
+ 
+# 忽略所有的 .settings 目录，这是Eclipse的设置目录
+.settings/
+ 
+# 忽略所有的 .gitignore 文件本身（以防你将这个文件提交到版本控制系统）
+.gitignore
