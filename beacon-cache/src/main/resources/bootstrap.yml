@@ -1,24 +1,22 @@
 server:
-  port: 8080
+  port: 8885
 
 spring:
   application:
-    name: beacon-api
-
+    name: beacon-cache
   profiles:
     active: dev
   cloud:
     nacos:
       discovery:
         server-addr: 124.221.171.44
+          #配置中心地址
       config:
         server-addr: 124.221.171.44
+          # beacon-cache-dev.yml
         file-extension: yml
-        # beacon-api
-
-  rabbitmq:
+  redis:
     host: 124.221.171.44
-    port: 5672
-    username: root
+    port: 6379
     password: yedaji!!
-    virtual-host: /
+
